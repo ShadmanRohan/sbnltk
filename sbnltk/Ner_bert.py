@@ -3,7 +3,7 @@ import torch
 import zipfile
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader, SequentialSampler
-from keras.preprocessing.sequence import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 from pytorch_pretrained_bert import BertTokenizer
 import os
 from sbnltk.Downloader import downloader
